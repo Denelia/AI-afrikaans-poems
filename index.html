@@ -14,10 +14,11 @@
       <h1>AI Afrikaans poem generator</h1>
     </header>
     <main>
+      <div class="form-container">
       <form id="poem-generator-form">
         <input
           type="text"
-          placeholder="Enter topic of poem"
+          placeholder="Enter topic of Afrikaans poem"
           autofocus
           required
           autocomplete="off"
@@ -26,7 +27,8 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="poem" id="poem">
+      <div class="hint">eg.Family,Love or Frienship</div>
+      <div class="poem hidden" id="poem">
       </div>
     </main>
 
@@ -48,7 +50,7 @@
         >
       </p>
     </footer>
-
+  </div>
     <script src="index.js"></script>
   </div>
   </body>
