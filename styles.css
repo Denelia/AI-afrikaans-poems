@@ -77,6 +77,10 @@ form {
   color:#45bbf1;
 }
 
+.hidden{
+  display:none;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
